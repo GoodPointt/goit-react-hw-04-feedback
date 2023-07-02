@@ -1,5 +1,3 @@
-import { useState, useEffect } from 'react';
-
 import { Statistics } from './Statistics/Statistics';
 import { Notification } from './Notification/Notification';
 import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
