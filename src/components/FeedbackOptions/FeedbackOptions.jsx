@@ -1,14 +1,14 @@
 import { Button } from 'components/Button/Button';
 import PropTypes from 'prop-types';
 
-export const FeedbackOptions = ({ incrementStat, options }) => {
+export const FeedbackOptions = ({ options, incrementOption }) => {
   return (
     <div className="buttons-wrap">
       {Object.keys(options).map(option => (
         <Button
           buttonType="button"
           key={option}
-          onClick={() => incrementStat(option)}
+          onClick={() => incrementOption(option)}
         >
           {option}
         </Button>
