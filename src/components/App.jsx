@@ -29,7 +29,7 @@ export const App = () => {
         break;
 
       default:
-        console.log('default');
+        console.warn(`unsupported stat - ${stat}`);
         break;
     }
   };
